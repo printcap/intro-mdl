@@ -17,7 +17,7 @@ Example using the [MovieLens dataset](https://grouplens.org/datasets/movielens/1
 consisting of 100,000 recommendations by 1,000 users
 for 1,700 movies.
 
-[Python notebook](notebooks/Collaborative Filtering.ipynb)
+[Python notebook](./notebooks/Collaborative%20Filtering.ipynb)
 
 
 #### Installation of Spark
@@ -51,7 +51,7 @@ export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark
 
 Run pyspark which will automatically bring up the Jupyter
 and open a window on the default browser. Open the
-[Collaborative Filtering](notebooks/Collaborative Filtering.ipynb) notebook.
+[Collaborative Filtering](notebooks/Collaborative%20Filtering.ipynb) notebook.
 ```
 $ cd <repodir>
 $ pyspark
@@ -67,7 +67,7 @@ Yann LeCun, Léon Bouttou, Yoshua Benigo, Patrick Haffner:
 [Gradient-Based Learning Applied to Document Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf).
 In Proc. of the IEEE, Volume 86, Issue 11, 1998.
 
-[Python notebook](notebooks/MNIST LeNet in Keras.ipynb)
+[Python notebook](./notebooks/MNIST%20LeNet%20in%20Keras.ipynb)
 
 
 #### Installation of Keras
@@ -81,8 +81,6 @@ is optional but requires the installation of the CUDA
 runtime and the [cuDNN library](https://developer.nvidia.com/cudnn).
 
 
-
-
 #### Running Notebook
 Start Jupyter which will open a new page in the default
 browser.
@@ -92,4 +90,4 @@ $ jupyter notebook
 ```
 
 Open the
-[Python notebook](notebooks/MNIST LeNet in Keras.ipynb).
+[Python notebook](./notebooks/MNIST%20LeNet%20in%20Keras.ipynb).
