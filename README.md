@@ -9,7 +9,7 @@ Learning use-cases.
   using [Apache Spark](http://spark.apache.org) 2.1.0.
 - Recognition of hand-written digits from the MNIST
   dataset with modified LeNet-5 convolutional neural
-  network using [Keras](https://keras.io) 1.2.2.  
+  network using [Keras](https://keras.io) 2.0.5.
 
 
 ## Movie Recommendation with Spark MLlib
@@ -75,8 +75,8 @@ In Proc. of the IEEE, Volume 86, Issue 11, 1998.
 Prerequisites: Python 2.7-3.5.
 
 Follow the instructions from the [Keros documentation](https://keras.io/#installation) for
-version 1.2.2. Choose between
-the [Theano](http://deeplearning.net/software/theano/) (0.9.0) or the [TensorFlow](https://www.tensorflow.org/) 1.0 backend. GPU-acceleration
+version 2.0.5. Choose between
+the [Theano](http://deeplearning.net/software/theano/) (0.9.0) or the [TensorFlow](https://www.tensorflow.org/) 1.2 backend. GPU-acceleration
 is optional but requires the installation of the CUDA
 runtime and the [cuDNN library](https://developer.nvidia.com/cudnn).
 
