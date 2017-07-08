@@ -1,12 +1,12 @@
 # intro-mldl
 Introduction Machine Learning and Deep Learning
 
-This repository contains a number of Python notebooks
+This repository contains a number of Python 3 notebooks
 for a a few Machine Learning and Deep
 Learning use-cases.
 
 - Movie recommendation system on MovieLens 100k dataset
-  using [Apache Spark](http://spark.apache.org) 2.1.0.
+  using [Apache Spark](http://spark.apache.org) 2.1.1.
 - Recognition of hand-written digits from the MNIST
   dataset with modified LeNet-5 convolutional neural
   network using [Keras](https://keras.io) 2.0.5.
