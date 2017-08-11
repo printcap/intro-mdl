@@ -6,10 +6,10 @@ for a a few Machine Learning and Deep
 Learning use-cases.
 
 - Movie recommendation system on MovieLens 100k dataset
-  using [Apache Spark](http://spark.apache.org) 2.1.1.
+  using [Apache Spark](http://spark.apache.org) 2.2.0.
 - Recognition of hand-written digits from the MNIST
   dataset with modified LeNet-5 convolutional neural
-  network using [Keras](https://keras.io) 2.0.5.
+  network using [Keras](https://keras.io) 2.0.6.
 
 
 ## Movie Recommendation with Spark MLlib
@@ -21,12 +21,12 @@ for 1,700 movies.
 
 
 #### Installation of Spark
-Prerequisites: Python 3.x (tested with Python 3.6.1)
-Download the Spark binary (tested 2.1.1 pre-built for Hadoop 2.7 and later) from the [Spark download page](http://spark.apache.org/downloads.html).
+Prerequisites: Python 3.x (tested with Python 3.6.2)
+Download the Spark binary (tested 2.2.0 pre-built for Hadoop 2.7 and later) from the [Spark download page](http://spark.apache.org/downloads.html).
 Unzip the file.
 ```
 cd <installdir>
-tar xfz spark-2.1.1-bin-hadoop2.7.tgz
+tar xfz spark-2.2.0-bin-hadoop2.7.tgz
 ```
 
 #### Download Dataset
@@ -43,7 +43,7 @@ Make sure that pyspark is the `PATH` variable and the following
 environment variables are set.
 
 ```
-export SPARK_HOME=<installdir>/spark-2.1.1-bin-hadoop2.7
+export SPARK_HOME=<installdir>/spark-2.2.0-bin-hadoop2.7
 export PATH=$PATH:$SPARK_HOME/bin
 export PYSPARK_DRIVER_PYTHON=jupyter
 export PYSPARK_DRIVER_PYTHON_OPTS='notebook' pyspark
@@ -72,10 +72,10 @@ In Proc. of the IEEE, Volume 86, Issue 11, 1998.
 
 #### Installation of Keras
 
-Prerequisites: Python 2.7-3.6 (tested with Python 3.6.1)
+Prerequisites: Python 2.7-3.6 (tested with Python 3.6.2)
 
 Follow the instructions from the [Keros documentation](https://keras.io/#installation) for
-version 2.0.5. Choose between
+version 2.0.6. Choose between
 the [Theano](http://deeplearning.net/software/theano/) (0.9.0) or the [TensorFlow](https://www.tensorflow.org/) 1.2 backend. GPU-acceleration
 is optional but requires the installation of the CUDA
 runtime and the [cuDNN library](https://developer.nvidia.com/cudnn).
